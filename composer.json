@@ -1,0 +1,14 @@
+{
+    "name": "moriony/php-zmq-stubs",
+    "type": "library",
+    "description":  "ZeroMQ stubs for IDE.",
+    "keywords": ["zeromq", "zmq", "stubs", "stub"],
+    "homepage": "https://github.com/moriony/php-zmq-stubs",
+    "license":  "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Chesnokov",
+            "email": "demateus@gmail.com"
+        }
+    ]
+}
