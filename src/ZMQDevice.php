@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class ZMQDevice
  * @link http://php.zero.mq/class.zmqdevice.html

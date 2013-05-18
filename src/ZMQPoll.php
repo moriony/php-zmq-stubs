@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class ZMQPoll
  * @link http://php.zero.mq/class.zmqpoll.html

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class ZMQSocket
  * @link http://php.zero.mq/class.zmqsocket.html

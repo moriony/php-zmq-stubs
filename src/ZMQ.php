@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class ZMQ
  * @link http://php.zero.mq/class.zmq.html
@@ -60,6 +59,5 @@ class ZMQ
     /**
      * @link http://php.zero.mq/zmq.construct.html
      */
-    private function __construct() 
-    {}
+    private function __construct() {}
 }

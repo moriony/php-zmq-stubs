@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class ZMQContext
  * @link http://php.zero.mq/class.zmqcontext.html
@@ -13,8 +12,7 @@ class ZMQContext
      * @param bool $is_persistent Whether the context is persistent. Persistent context is stored over multiple requests and is a requirement for persistent sockets.
      * @throws ZMQContextException
      */
-    public function __construct ($io_threads = 1, $is_persistent = true)
-    {}
+    public function __construct ($io_threads = 1, $is_persistent = true) {}
 
     /**
      * Returns the value of a context option.
@@ -23,8 +21,7 @@ class ZMQContext
      * @return string|integer
      * @throws ZMQContextException
      */
-    public function getOpt($key)
-    {}
+    public function getOpt($key) {}
 
     /**
      * Shortcut for creating new sockets from the context. If the context is not persistent the persistent_id parameter is ignored and the socket falls back to being non-persistent. The on_new_socket is called only when a new underlying socket structure is created.
@@ -35,16 +32,14 @@ class ZMQContext
      * @return ZMQSocket
      * @throws ZMQSocketException
      */
-    public function getSocket ($type, $persistent_id = null, $on_new_socket = null)
-    {}
+    public function getSocket ($type, $persistent_id = null, $on_new_socket = null) {}
 
     /**
      * Whether the context is persistent. Persistent context is needed for persistent connections as each socket is allocated from a context.
      * @link http://php.zero.mq/zmqcontext.ispersistent.html
      * @return boolean
      */
-    public function isPersistent()
-    {}
+    public function isPersistent() {}
 
     /**
      * Sets a ZMQ context option. The type of the value depends on the key.
@@ -55,6 +50,5 @@ class ZMQContext
      * @return ZMQContext
      * @throws ZMQContextException
      */
-    public function setOpt($key, $value)
-    {}
+    public function setOpt($key, $value) {}
 }
