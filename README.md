@@ -7,7 +7,7 @@ Add in your ```composer.json``` the require entry for this library.
 ```json
 {
     "require-dev": {
-        "moriony/php-zmq-stubs": "@dev"
+        "moriony/php-zmq-stubs": "dev-master"
     }
 }
 ```
